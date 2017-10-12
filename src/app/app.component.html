@@ -1,0 +1,25 @@
+<div class="app">
+  <!--<div class="column">
+    <app-users></app-users>
+  </div>-->
+  <!--<div class="column">
+    <app-items></app-items>
+  </div>-->
+  <div class="column">
+    <app-users-items></app-users-items>
+  </div>
+  <div class="column">
+     <my-map></my-map>
+  </div>
+
+  <router-outlet>
+    <nav>
+    <a routerLink='/UserList'>Users</a>
+  </nav>
+
+     <nav>
+    <a routerLink='/items'>items</a>
+  </nav>
+  
+</router-outlet>
+</div>
